@@ -1,0 +1,2 @@
+SELECT COUNT(DISTINCT name)
+FROM customers;
