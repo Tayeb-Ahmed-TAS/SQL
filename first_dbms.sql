@@ -1,3 +1,3 @@
 select *
-from cse_students
+from customers
 where age <= 30
