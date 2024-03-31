@@ -1,3 +1,2 @@
-select distinct country as address, id
+select *
 from customers
-limit 8
