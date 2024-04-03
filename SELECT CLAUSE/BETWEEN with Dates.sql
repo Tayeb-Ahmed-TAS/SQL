@@ -1,0 +1,3 @@
+SELECT *
+FROM customers
+WHERE registered BETWEEN '2016-01-01' AND '2016-12-31';
