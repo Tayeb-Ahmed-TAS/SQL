@@ -1,9 +1,3 @@
-update department_info
-set Current_Students=(select count(Roll) from students where Department = 'ICT')
-where department_info.Department = 'ICT';
-
-select *
-from students,
-     department_info
-where department_info.Department = students.Department
-  and Name = 'Shorna';
+select id, name
+from customers
+where registered between '2014-01-01' and '2014-12-31';
