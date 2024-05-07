@@ -1,3 +1,4 @@
-select id, name
-from customers
-where registered between '2014-01-01' and '2014-12-31';
+select *
+from order_details
+where price < 5000
+order by order_id;
