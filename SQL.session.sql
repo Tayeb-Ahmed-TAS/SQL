@@ -3,3 +3,4 @@ with uk_clints as (select name, age, registered
                    where country = 'uk')
 select *
 from uk_clints;
+
