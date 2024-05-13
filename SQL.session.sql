@@ -4,4 +4,4 @@ with uk_clints as (select name, age, registered
 select *
 from uk_clints;
 
-/* Comments */
+/* Comments  */
