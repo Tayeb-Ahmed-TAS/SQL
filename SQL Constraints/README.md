@@ -15,3 +15,5 @@
 | `CHECK`        | Validate conditions for new value |
 | `DEFAULT`      | Sets a default value for a column |
 | `CREATE INDEX` | Used to speedup the  read process |
+
+        **Note:** These constraints are also called integrity constraints.
