@@ -16,4 +16,4 @@
 | `DEFAULT`      | Sets a default value for a column |
 | `CREATE INDEX` | Used to speedup the  read process |
 
-        **Note:** These constraints are also called integrity constraints.
+        Note: These constraints are also called integrity constraints.
