@@ -54,6 +54,25 @@ CREATE TABLE table_name (
     ....
 );
 
+# Example:
+    # First create a table
+
+CREATE TABLE loan (
+    loan_id INT PRIMARY KEY AUTO_INCREMENT,
+    loan_amount INT,
+    customer_id INT
+);
+
+    # Now insert some data into the table
+
+INSERT INTO loan (loan_amount, customer_id) VALUES
+                                                (1000, 1),
+                                                (2000, 2),
+                                                (3000, 3),
+                                                (4000, 4),
+                                                (5000, 5);
+
+
 
 # Syntax: Remove Primary Key Constraint
 

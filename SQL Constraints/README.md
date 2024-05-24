@@ -6,14 +6,14 @@
 
 ### The constraints used in SQL are:
 
-| **Constraint** | **Description**                   |
-|----------------|-----------------------------------|
-| `NOT NULL`     | Values cannot be null             |
-| `UNIQUE`       | Values must be unique             |
-| `PRIMARY KEY`  | Used to uniquely identify a row   |
-| `FOREIGN KEY`  | References a row in another table |
-| `CHECK`        | Validate conditions for new value |
-| `DEFAULT`      | Sets a default value for a column |
-| `CREATE INDEX` | Used to speedup the  read process |
+| **Constraint** | **Description**                                             |
+|----------------|-------------------------------------------------------------|
+| `NOT NULL`     | Values cannot be null                                       |
+| `UNIQUE`       | Values must be unique                                       |
+| `PRIMARY KEY`  | Used to uniquely identify a row                             |
+| `FOREIGN KEY`  | References a row in another table                           |
+| `CHECK`        | Specify the condition that each row in a table must satisfy |
+| `DEFAULT`      | Sets a default value for a column                           |
+| `CREATE INDEX` | Used to speedup the  read process                           |
 
         Note: These constraints are also called integrity constraints.
