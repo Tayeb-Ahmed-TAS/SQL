@@ -51,3 +51,14 @@ SELECT Roll,
            ELSE 'Not Allowed'
            END AS can_vote
 FROM students;
+
+# Example: Show Exam date based on department in Students table
+
+SELECT DISTINCT(Department),
+               CASE
+                   WHEN Department = 'cse' THEN '12-06-2024'
+                   WHEN Department = 'eee' THEN '14-06-2024'
+                   WHEN Department = 'ict' THEN '16-06-2024'
+                   ELSE '18-06-2024'
+                   END AS Exam_Date
+FROM students;
